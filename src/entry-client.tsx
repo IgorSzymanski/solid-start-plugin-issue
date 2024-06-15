@@ -1,9 +1,11 @@
-{ mount, StartClient } from @solidjs/start/client
+import { mount, StartClient } from "@solidjs/start/client";
 
-appSelector := '#app'
+const appSelector = "#app";
 
-appElement := document.querySelector appSelector
+const appElement = document.querySelector(appSelector);
 
-throw new Error `No ${appSelector} element found` if not appElement
+if (!appElement) {
+  throw new Error(`No ${appSelector} element found`);
+}
 
-mount => <StartClient />, appElement
+mount(() => <StartClient />, appElement);
