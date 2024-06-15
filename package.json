@@ -1,0 +1,24 @@
+{
+  "name": "reproduction",
+  "scripts": {
+    "dev": "vinxi dev --port 8080",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "dependencies": {
+    "@solidjs/meta": "^0.29.0",
+    "@solidjs/router": "^0.13.0",
+    "@solidjs/start": "^1.0.0",
+    "solid-js": "^1.8.0",
+    "vinxi": "^0.3.11",
+    "vite-plugin-radar": "^0.9.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
