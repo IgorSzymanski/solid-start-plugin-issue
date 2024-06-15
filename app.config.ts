@@ -4,14 +4,14 @@ import { VitePluginRadar } from "vite-plugin-radar";
 export default defineConfig({
   vite: {
     plugins: [
-      //   VitePluginRadar({
-      //   enableDev: true,
-      //   gtm: [
-      //     {
-      //       id: 'GTM-AAAAAA',
-      //     },
-      //   ],
-      // }),
+      VitePluginRadar({
+        enableDev: true,
+        gtm: [
+          {
+            id: "GTM-AAAAAA",
+          },
+        ],
+      }),
     ],
   },
 });
