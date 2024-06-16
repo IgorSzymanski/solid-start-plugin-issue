@@ -1,24 +1,22 @@
 {
-  "name": "reproduction",
-  "scripts": {
-    "dev": "vinxi dev --port 8080",
-    "build": "vinxi build",
-    "start": "vinxi start",
-    "typecheck": "tsc --noEmit"
-  },
+  "name": "example-ssr-solid-router",
   "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
   "dependencies": {
-    "@solidjs/meta": "^0.29.0",
-    "@solidjs/router": "^0.13.0",
-    "@solidjs/start": "^1.0.0",
-    "solid-js": "^1.8.0",
-    "vinxi": "^0.3.11"
-  },
-  "devDependencies": {
-    "@danielx/civet": "^0.7.12",
-    "typescript": "^5.4.0"
-  },
-  "browserslist": [
-    "defaults"
-  ]
+    "@babel/core": "^7.22.11",
+    "@picocss/pico": "^1.5.10",
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
+    "@types/babel__core": "^7.20.1",
+    "@vinxi/solid": "0.1.1",
+    "autoprefixer": "^10.4.15",
+    "solid-js": "^1.7.11",
+    "vinxi": "0.3.11",
+    "vite-plugin-solid": "^2.7.0"
+  }
 }
