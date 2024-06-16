@@ -1,9 +1,14 @@
-import { RouteSectionProps } from '@solidjs/router'
+import { A } from '@solidjs/router'
 
-export default function HomeLayout(_: RouteSectionProps) {
+export default function Index() {
   return (
     <>
-      Hello World
+      This is the Index page
+      <ul>
+        <li><A href="/typescript">TypeScript</A></li>
+        <li><A href="/civet">Civet</A></li>
+        <li><A href="/civet-but-typescript">Civet but in TypeScript</A></li>
+      </ul>
     </>
     )
 }

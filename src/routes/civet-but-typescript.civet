@@ -1,0 +1,12 @@
+import CivetComponent from '../components/CivetComponent.civet'
+
+export default function CivetButTypescript() {
+  return (
+    <>
+      <CivetComponent />
+      This is a Civet page using TypeScript-only syntax.<br />
+      This works.<br />
+      This can work as a workound.
+    </>
+  );
+}

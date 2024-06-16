@@ -1,0 +1,8 @@
+CivetComponent from ../components/CivetComponent.civet
+
+export default function Civet
+  <>
+    <CivetComponent />
+    This is a Civet page.<br />
+    This doesn't work.<br />
+    This would be the perfect way to write Civet pages.

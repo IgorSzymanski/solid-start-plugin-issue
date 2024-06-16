@@ -1,0 +1,6 @@
+{ A } from @solidjs/router
+
+export default function CivetComponent
+  <>
+    <h1>This component is written using Civet syntax. This gets compiled correctly to TS and works in both .tsx and .civet pages.
+    <A href="/">Go back to home page.<br />
