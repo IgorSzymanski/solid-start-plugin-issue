@@ -1,0 +1,9 @@
+/* @refresh reload */
+{ render } from solid-js/web
+App from ./app
+
+root := document.getElementById 'root'
+
+throw new Error 'No #root element found' if not root
+
+render => <App />, root

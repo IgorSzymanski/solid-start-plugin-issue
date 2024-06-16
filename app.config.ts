@@ -1,17 +1,13 @@
+import civetVitePlugin from '@danielx/civet/vite'
 import { defineConfig } from '@solidjs/start/config'
-import { VitePluginRadar } from 'vite-plugin-radar'
 
 export default defineConfig({
+  extensions: ['civet', 'tsx', 'ts'],
   vite: {
     plugins: [
-      VitePluginRadar({
-      enableDev: true,
-      gtm: [
-        {
-          id: 'GTM-AAAAAA',
-        },
-      ],
-    }),
+      civetVitePlugin({
+        ts: 'civet',
+      }),
     ]
   }
 });

@@ -12,3 +12,5 @@ pnpm run dev
 
 
 ## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+
+https://codesandbox.io/p/github/IgorSzymanski/solid-start-plugin-issue/main?import=true
